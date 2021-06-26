@@ -87,12 +87,12 @@ const AboutUs = () => {
                 Assem Dandan
               </div>
               <p className="text-gray-800 text-base px-6 mb-5 ">
-                UI/UX & Front-end Developer
+                UI Designer & Frontend Developer
               </p>
               
           </div>
           <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div className="flex items-center justify-start">
+            <div className="flex items-center justify-center">
             <a href="https://lb.linkedin.com/in/assem-dandan" className=" no-underline hover:no-underline">
               <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Contact
@@ -108,7 +108,7 @@ const AboutUs = () => {
                 Mohammad Faour
               </div>
               <p className="text-gray-800 text-base px-6 mb-5">
-                API & Back-end Developer
+                Backend Developer
               </p>
            
           </div>
@@ -130,12 +130,12 @@ const AboutUs = () => {
                 Hussam Mneimneh
               </div>
               <p className="text-gray-800 text-base px-6 mb-5">
-                Front-end & Back-end Developer
+                Mobile Developer
               </p>
             
           </div>
           <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div className="flex items-center justify-end">
+            <div className="flex items-center justify-center">
             <a href="https://www.linkedin.com/in/hussam-mneimneh-578797207/" className="no-underline hover:no-underline">
               <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Contact
