@@ -11,6 +11,7 @@ import {ReactComponent as Boxes} from '../svg/deliveries.svg';
 import {ReactComponent as Ad} from '../svg/ad.svg';
 import {ReactComponent as Offers} from '../svg/offers.svg';
 import {ReactComponent as Order} from '../svg/order.svg';
+import {ReactComponent as HighFive} from '../svg/high-five.svg';
 import {ReactComponent as Mobileapp} from '../svg/mobile-app.svg';
 import {Link} from 'react-router-dom';
 import { useEffect } from 'react';
@@ -40,7 +41,7 @@ const Home = () => {
         </div>
         
         <div className="w-full md:w-3/5 py-10 text-center">
-            <Mobileapp/>
+            <HighFive/>
         </div>
       </div>
     </div>
