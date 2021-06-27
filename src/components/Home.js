@@ -12,8 +12,13 @@ import {ReactComponent as Ad} from '../svg/ad.svg';
 import {ReactComponent as Offers} from '../svg/offers.svg';
 import {ReactComponent as Order} from '../svg/order.svg';
 import {ReactComponent as Mobileapp} from '../svg/mobile-app.svg';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import { useEffect } from 'react';
+
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
     return ( 
     <div>
      <div className="pt-24">

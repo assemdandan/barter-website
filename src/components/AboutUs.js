@@ -4,8 +4,13 @@ import {ReactComponent as Team} from '../svg/team.svg';
 import {ReactComponent as Shopping} from '../svg/offers.svg';
 import assem from '../images/assem.jpeg'
 import mohammad from '../images/mohammad.jpeg'
-import hussam from '../images/hussam.jpeg'
+import hussam from '../images/hussam.jpeg';
+import { useEffect } from 'react';
+
 const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
     return ( 
         <div>
         <div className="pt-24">

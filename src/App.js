@@ -7,6 +7,9 @@ import Step1 from './components/Step1'
 import Step2 from './components/Step2'
 import Step3 from './components/Step3'
 import Steps from './components/Steps'
+import Terms from './components/Terms'
+import Privacy from './components/Privacy'
+
 function App() {
   
   return (
@@ -33,6 +36,12 @@ function App() {
          </Route>
          <Route exact path ="/steps">
            <Steps/>
+         </Route>
+         <Route exact path ="/terms">
+           <Terms/>
+           </Route>
+         <Route exact path ="/privacy">
+           <Privacy/>
          </Route>
        </Switch>
       </header>

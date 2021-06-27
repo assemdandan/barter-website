@@ -1,3 +1,6 @@
+import React from "react";
+import {Link} from 'react-router-dom'
+
 const Footer = () => {
   return (
     <footer class="bg-white">
@@ -18,28 +21,15 @@ const Footer = () => {
               Barter
             </a>
           </div>
-          <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Links</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
-              </li>
-            </ul>
-          </div>
+         
           <div class="flex-1">
             <p class="uppercase text-gray-500 md:mb-6">Legal</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+                <Link to="/terms"><a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a></Link>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+                <Link to="/privacy"><a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a></Link>
               </li>
             </ul>
           </div>
@@ -47,13 +37,13 @@ const Footer = () => {
             <p class="uppercase text-gray-500 md:mb-6">Social</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+                <a href="http://www.facebook.com" class="no-underline hover:underline text-gray-800 hover:text-pink-500" target="_blank">Facebook</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+                <a href="http://www.linkedin.com" class="no-underline hover:underline text-gray-800 hover:text-pink-500" target="_blank">Linkedin</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+                <a href="http://www.twitter.com" class="no-underline hover:underline text-gray-800 hover:text-pink-500" target="_blank">Twitter</a>
               </li>
             </ul>
           </div>
@@ -61,13 +51,10 @@ const Footer = () => {
             <p class="uppercase text-gray-500 md:mb-6">Company</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
+              <Link to="/about-us"><a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a></Link>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+              <Link to="/about-us"><a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a></Link>
               </li>
             </ul>
           </div>
